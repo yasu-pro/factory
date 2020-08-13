@@ -1,0 +1,246 @@
+@import url(reset.css);
+/* ----------------------全体--------------------- */
+
+body {
+    margin: 0;
+    border-top: 7px solid greenyellow;
+    color: #000;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+nav, main, #footerlinks {
+    margin: 1.2rem;
+}
+
+h1,h2,h3 {
+    margin: 0;
+    color: #000;
+    line-height: 1;
+}
+
+ul,li {
+    list-style: none;
+}
+/* ヘッダー */
+.logo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+/* --------------------------グローバルナビゲーション -----------------------*/
+.gnav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin-top: 10px; 
+    padding: 0;
+}
+
+.gnav li {
+    margin: 0;
+    padding: 0;
+}
+
+.gnav li, .gnav a {
+    display: block;
+}
+
+.gnav a {
+    color: black;
+    text-align: center;
+    margin: 2px;
+    padding: 5px 0;
+    background: #f3f3f3;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* ----------------------------メイン ----------------------------------*/
+main {
+    margin-top: 0;
+}
+h2 {
+    text-align: center;
+    font-size: 12px
+}
+
+p {
+    font-size: 7px;
+    text-align: center;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.slideshow {
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+
+.wrapper-1 {
+    margin-top: 10px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.info {
+    outline: 1px solid #6cf;
+    box-shadow: 0 0 1px 1px #6cf;
+    background: #f3f3f3;
+    height: 100%;
+    display: inline-block;
+    width: 50%;
+    margin-right: 5px;
+}
+
+.info img {
+    height: 70%;
+    width: 100%;
+}
+
+.info a {
+    color: black;
+    height: 30%;
+}
+
+.greeting {
+    outline: 1px solid #6cf;
+    box-shadow: 0 0 1px 1px #6cf;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    vertical-align: top;
+    background: #f3f3f3;
+}
+
+.facility {
+    outline: 1px solid #6cf;
+    box-shadow: 0 0 1px 1px #6cf;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    vertical-align: top;
+    background: #f3f3f3;
+}
+
+.greeting img,.facility img {
+    width: 100%;
+    height: 70%;
+}
+
+.wrapper-2 {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.investor-info {
+    outline: 1px solid #6cf;
+    box-shadow: 0 0 1px 1px #6cf;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background: #f3f3f3;
+    margin-right: 5px; 
+}
+
+.investor-info img,.csr img {
+    width: 100%;
+    height: 70%;
+}
+
+.investor-info a {
+    width: 100%;
+    height: 30%;
+}
+
+.csr {
+    outline: 1px solid #6cf;
+    box-shadow: 0 0 1px 1px #6cf;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background: #f3f3f3;
+}
+
+.csr a {
+    color: black;
+}
+
+.wrapper-1 a, .wrapper-2 a {
+    text-decoration: none;
+}
+
+
+/* ---------------------------------フッター ---------------------------------*/
+footer {
+    background: #f3f3f3;
+}
+
+.nav {
+    background: #fff;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.nav ul {
+    height: 100%;
+    text-align: right;
+}
+
+.nav li {
+    width: 12%;
+    margin: 0 1px;
+    display: inline-block;
+    border-right: black solid thin;
+}
+
+.nav a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 1.0;
+    padding: 2px 2px;
+    font-size: 2px;
+    text-decoration: none;
+}
+
+#footerlinks {
+    text-align: right;
+    font-size: 3px;
+}
+
+address {
+    margin-top: 10px;
+    text-align: right;
+}
+
+footer p {
+    font-size: 12px
+}
